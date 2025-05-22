@@ -80,11 +80,12 @@ nav {
 
 .menu-imgs {
     grid-column: 5;
-
 }
 
 .menu-imgs a {
     margin-right: 20px;
+
+
 }
 
 .elemento {
@@ -111,6 +112,11 @@ nav {
 
     }
 
+    .menu-imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 
     .nav-links.show {
